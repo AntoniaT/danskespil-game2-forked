@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="navFooter.css">
+
+    <title>Spillehjørnet</title>
+</head>
+<body>
+ <header>
+    <nav>
+     <div class="leftNav">
+     <a class="navA" href="main.html"><img class="danskeLogo" src="../images/danskespil-logo.png" alt="danskespil logo"></a>
+     <a class="navA" href="#">More games</a>
+     <a class="navA" href="#">Help</a>
+     </div>
+     <div class="rightNav">
+     <a href="/red_form/form.html">
+        <!-- SVG of the USER AVATAR clickable-->
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #fff;
+                    }
+              
+                    .cls-2 {
+                      fill: #26a59a;
+                    }
+              
+                    .cls-3 {
+                      fill: #d65252;
+                    }
+                  </style>
+                </defs>
+                <title>user</title>
+                <circle id="background-circle" class="cls-1" cx="20" cy="20" r="18"/>
+                <g id="iconfinder_user-alt_285645" data-name="iconfinder user-alt 285645">
+                  <path id="Path_27" data-name="Path 27" class="cls-2" d="M15.23,20a11.9,11.9,0,0,0-7,9.57,2.55,2.55,0,0,0,2.49,2.62h18.4a2.56,2.56,0,0,0,2.55-2.57v0a11.92,11.92,0,0,0-7-9.57,5.35,5.35,0,0,1-4.71,3A5.35,5.35,0,0,1,15.23,20Z"/>
+                  <path id="Path_28" data-name="Path 28" class="cls-2" d="M26.49,12.56A6.56,6.56,0,1,1,19.94,6h0a6.56,6.56,0,0,1,6.55,6.56Z"/>
+                  <path id="Path_29" data-name="Path 29" class="cls-2" d="M19.94,17.8A11.79,11.79,0,0,0,8.22,28.29a2.55,2.55,0,0,0,2.48,2.62H29.11a2.56,2.56,0,0,0,2.55-2.56v-.06A11.8,11.8,0,0,0,19.94,17.8Z"/>
+                </g>
+                <circle id="circle" class="cls-3" cx="6" cy="6" r="6"/>
+              </svg>
+              
+     </a>
+     <a class="navA" id="userName" href="#">Username</a>
+     </div>
+
+    </nav>
+    <div class="subNav">
+        <img class="spilleLogo" src="../images/spille-logo-white.png" alt="Spillehjørn Logo">
+        <a class="navA" href="#">Play Spillehjørnet <i class="fas fa-chevron-down"></i></a>
+        <a class="navA" href="#">Winners</a>
+        <a class="navA" href="#">About Spillehjørnet</a>
+        <a class="navA" href="#">Regular Campaigns</a>
+    </div>
+    <!-- BURGER NAVIGATION FOR MOBILE-->
+      <!-- source: "https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp?fbclid=IwAR06HAN5lNBheJ1YniQ2r2rWnHodkamx02YmP8lB9Le0Ctf2sIyOsxnwZyE" we used w3schools to help us create the following burger navigation. -->
+      <div class="upperMobileNav">
+            <i class="menuBtn fas fa-bars fa-2x"></i>
+            <a href="main.html"
+              ><img
+                id="danskeLogoMobile"
+                src="../images/spille-logo-dice.png"
+                alt="danskespil logo"
+            /></a>
+            <a href="/red_form/form.html">
+                <!-- SVG of the USER AVATAR clickable-->
+                    <svg class="mobileAvatar" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38">
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              fill: #fff;
+                            }
+                      
+                            .cls-2 {
+                              fill: #26a59a;
+                            }
+                      
+                            .cls-3 {
+                              fill: #d65252;
+                            }
+                          </style>
+                        </defs>
+                        <title>user</title>
+                        <circle id="background-circle" class="cls-1" cx="20" cy="20" r="18"/>
+                        <g id="iconfinder_user-alt_285645" data-name="iconfinder user-alt 285645">
+                          <path id="Path_27" data-name="Path 27" class="cls-2" d="M15.23,20a11.9,11.9,0,0,0-7,9.57,2.55,2.55,0,0,0,2.49,2.62h18.4a2.56,2.56,0,0,0,2.55-2.57v0a11.92,11.92,0,0,0-7-9.57,5.35,5.35,0,0,1-4.71,3A5.35,5.35,0,0,1,15.23,20Z"/>
+                          <path id="Path_28" data-name="Path 28" class="cls-2" d="M26.49,12.56A6.56,6.56,0,1,1,19.94,6h0a6.56,6.56,0,0,1,6.55,6.56Z"/>
+                          <path id="Path_29" data-name="Path 29" class="cls-2" d="M19.94,17.8A11.79,11.79,0,0,0,8.22,28.29a2.55,2.55,0,0,0,2.48,2.62H29.11a2.56,2.56,0,0,0,2.55-2.56v-.06A11.8,11.8,0,0,0,19.94,17.8Z"/>
+                        </g>
+                        <circle id="circle" class="cls-3" cx="6" cy="6" r="6"/>
+                      </svg>
+                      
+             </a>
+          </div>
+          <div id="mobileNav" class="overlay">
+            <div class="upperOverlay">
+              <a class="navA" href="red_form/form.html">Log in</a>
+              <a
+                ><img
+                  class="spilleLogoDice"
+                  src="../images/spille-logo-dice.png"
+                  alt="Spillehjørn Logo"
+              /></a>
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                ><i class="fas fa-times fa-lg"></i
+              ></a>
+            </div>
+    
+            <div class="overlay-content">
+              <a href="">More Games</a>
+              <a href="">Help</a>
+              <a href="">About us</a><br /><br />
+    
+              <a href="">Play Spillehjørnet</a>
+              <a href="about.html">Winners</a>
+              <a href="teaching.html">About Spillehjørnet</a>
+              <a href="index.html#contact">Regular Campaigns</a>
+              <a class="current" href="blue_form/form.html"
+                >Sign up <i class="fas fa-chevron-down"></i
+              ></a>
+            </div>
+          </div>
+ </header>
+    <main>
+    <section>
+        <img class="mainGameImg" src="../images/mainGame.png">
+    </section>
+    <section>
+        <h3 class="spilleHeader">Selected Games for you</h3>
+        <div class="selectedGames">
+            <img class="mediumGame" src="../images/game1.png" alt="game image">
+            <img class="mediumGame" src="../images/game2.png" alt="game image">
+            <img class="mediumGame" src="../images/game3.png" alt="game image">
+            <img class="mediumGame" src="../images/game4.png" alt="game image">
+
+    </section>
+    <section>
+            <h3 class="spilleHeader">All Games (37 games)</h3>
+            <div class="filterBar">
+             <p class="filterP">Find games by</p>
+             <button class="filterBtn">Category</button>
+             <button class="filterBtn">Supplier</button>
+             <label>
+             <input id="spilleSearch" type="text" value="Search by Game name">
+             </label>
+            </div>
+            <h3 class="spilleHeader">popular (12 games)</h3>
+            <div class="allGames">
+            <img class="mediumGame" src="../images/smallGame1.png" alt="game image">
+            <img class="mediumGame" src="../images/smallGame2.png" alt="game image">
+            <img class="mediumGame" src="../images/smallGame3.png" alt="game image">
+            <img class="mediumGame" src="../images/smallGame4.png" alt="game image">
+            <img class="mediumGame" src="../images/smallGame5.png" alt="game image">
+            <img class="mediumGame" src="../images/smallGame6.png" alt="game image">
+            <img class="mediumGame" src="../images/smallGame7.png" alt="game image">
+            <img class="mediumGame" src="../images/smallGame8.png" alt="game image">
+           </div>
+    </section>
+
+   </main>
+
+   <footer>
+        <hr>
+        <div class="mainFooter">
+            <div class="mainFooterPart1">
+                <a class="navA" href=""><img class="danskeLogo" src="../images/danskespil-logo.png" alt="danskespil logo"></a>
+                <p>Danske Spil A/S<br>Korsdalsvej 135<br>2605 Brøndby</p>
+            </div>
+            <div class="mainFooterPart2">
+               <ul>
+                <li><a class="navA" href="#">Operational status</a></li>
+                <li><a class="navA" href="#">Terms and conditions</a></li>
+                <li><a class="navA" href="#">Vegas</a></li>
+                <li><a class="navA" href="#">Become a partner</a></li>
+                <li><a class="navA" href="#">Responsibility</a></li>
+                <li><a class="navA" href="#">Privacy policy</a></li>
+               </ul>
+            </div>
+            <div class="mainFooterPart3">
+               <ul>
+                <li><a class="navA" href="#">YouBet</a></li>
+                <li><a class="navA" href="#">Winning chances</a></li>
+                <li><a class="navA" href="#">Cookies</a></li>
+                <li><a class="navA" href="#">Game rules</a></li>
+                <li><a class="navA" href="#">Kalaalisut</a></li>
+               </ul>
+            </div>
+            <div class="mainFooterPart4">
+                <p>Contact our customer service<br>every day from 9am until 23pm</p>
+                <button class="footerBtn">KONTAKT KUNDESERVICE</button>
+            </div>
+
+        </div>
+        <div class="subFooter">
+            <img src="../images/footer-logo1.png" alt="partner logo">
+            <img src="../images/footer-logo2.png" alt="partner logo">
+            <img src="../images/footer-logo3.png" alt="partner logo">
+            <img src="../images/footer-logo4.png" alt="partner logo">
+            <img src="../images/footer-logo5.png" alt="partner logo">
+            <img src="../images/footer-logo6.png" alt="partner logo">
+
+        </div>
+    </footer>
+    <script src="main.js"></script>
+
+
+</body>
+</html>

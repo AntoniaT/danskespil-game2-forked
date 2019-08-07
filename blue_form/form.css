@@ -1,0 +1,155 @@
+body {
+  background-color: #7d96b4;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* NEW FORM STYLING  */
+
+#mymain{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#color{
+  color: #26a59a;
+}
+#red{
+  color: red;
+}
+#newForm {
+  width: 550px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  box-shadow: 7px 9px 8px -3px rgba(171, 171, 171, 1);
+  border-radius: 5px;
+  margin-top: 5vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 3em;
+}
+
+#newForm h3 {
+  font-size: 32px;
+}
+#newForm input {
+  width: 250px;
+}
+ul li {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+#newForm #submit_btn {
+  height: 5vh;
+  width: 13vw;
+  border-radius: 1em;
+  background-color: #26a59a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4%;
+}
+
+/* CSS for Mobile starts here*/
+@media screen and (max-width: 500px) {
+  #newForm {
+    width: 90vw;
+  }
+  #newForm #submit_btn {
+    width: 150px
+  }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  p {
+    font-size: 12px;
+  }
+  #newForm {
+    margin-top: 3vh;
+    width: 440px;
+  }
+  #newForm label {
+    font-size: 12px;
+  }
+  #newForm h3 {
+    font-size: 20px;
+  }
+  #newForm input {
+    width: 250px;
+  }
+
+  ul li p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  #newForm #submit_btn {
+    height: 5vh;
+    width: 120px;
+    background-color: #26a59a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4%;
+  }
+}
+/* CSS for Tablet starts here*/
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  #newForm h3 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #newForm {
+    width: 550px;
+    background-color: white;
+
+  }
+  #newForm label {
+    font-size: 14px;
+  }
+
+  #newForm input{
+    width: 250px;
+  }
+
+
+  ul li p {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  #newForm #submit_btn {
+    height: 5vh;
+    width: 100px;
+    background-color: #26a59a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    }
+}
+
+
+/* @media only screen and (max-width: 768px){
+  #newForm input{
+    width: 250px;
+  }
+} */

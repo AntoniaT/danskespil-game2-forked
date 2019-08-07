@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>game</title>
+    <link rel="stylesheet" type="text/css" href="gamestyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="gameplaceholder">
+      <div id="blur2"></div>
+      <div id="backgroundmodal"></div>
+      <div id="rotateScreen">
+        <p>Rotate screen to play game</p>
+        <button id="rotateButton">
+          <i id="rotateIcon" class="fas fa-undo"></i>
+        </button>
+      </div>
+      <div id="startone">
+        <p class="instruction" id="collectthecup">
+          Collect the green cup before it moves
+        </p>
+      </div>
+      <div id="starttwo">
+        <p class="instruction" id="donttouchthecup">Don't touch the red cup</p>
+      </div>
+      <div id="blur"></div>
+      <div id="endgamemodal">
+        <p id="congratulations">
+          Congratulations! That was a good game!
+        </p>
+        <p id="youremail">Enter e-mail address to get your <b>money</b></p>
+        <input id="emailgameinput" type="text" /><br />
+
+        <button id="formbutton">Get your money!</button>
+        <p id="nospam">No spam, promise</p>
+        <a id="replay">
+          No, thanks, I don't want to get real money
+        </a>
+      </div>
+    </div>
+    <audio id="nope">
+      <source src="nope.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="music">
+      <source src="gotmusic.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="good">
+      <source src="good.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="bad">
+      <source src="bad.mp3" type="audio/mp3" />
+    </audio>
+    <script src="gamescript.js"></script>
+  </body>
+</html>

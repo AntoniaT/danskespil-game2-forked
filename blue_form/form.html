@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>User List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="../main/navFooter.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="node_modules/materialize-css/dist/css/materialize.min.css"
+      media="screen,projection"
+    />
+    <!--Let browser know website(materialize.css) is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+
+<!-- header here -->
+<header>
+    <nav id="formNav">
+      <div class="leftNav">
+        <a class="navA" href="../main/main.html"
+          ><img
+            class="danskeLogo"
+            src="../images/danskespil-logo.png"
+            alt="danskespil logo"
+        /></a>
+        <a
+          class="navA"
+          href="https://danskespil.dk/spillehjoernet?intcmp=top_menu_spillehjoernet_brand#"
+          >More games</a
+        >
+        <a class="navA" href="https://kundecenter.danskespil.dk/forside"
+          >Help</a
+        >
+        <a class="navA" href="https://danskespil.dk/om">About us</a>
+      </div>
+      <div class="rightNav">
+        <a class="navA" href="../red_form/form.html">Log in</a>
+        <a class="navA" href="form.html">Sign up</a>
+      </div>
+    </nav>
+    <div class="subNav">
+      <img
+        class="spilleLogo"
+        src="../images/spille-logo-white.png"
+        alt="Spillehjørn Logo"
+      />
+      <a class="navA" href="#"
+        >Play Spillehjørnet <i class="fas fa-chevron-down"></i
+      ></a>
+      <a class="navA" href="#">Winners</a>
+      <a class="navA" href="#">About Spillehjørnet</a>
+      <a class="navA" href="#">Regular Campaigns</a>
+    </div>
+    <!-- BURGER NAVIGATION FOR MOBILE-->
+    <!-- source: "https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp?fbclid=IwAR06HAN5lNBheJ1YniQ2r2rWnHodkamx02YmP8lB9Le0Ctf2sIyOsxnwZyE" we used w3schools to help us create the following burger navigation. -->
+    <div class="upperMobileNav">
+      <i class="menuBtn fas fa-bars fa-2x"></i>
+      <a href="../main/main.html"
+        ><img
+          id="danskeLogoMobile"
+          src="../images/spille-logo-dice.png"
+          alt="danskespil logo"
+      /></a>
+    </div>
+    <div id="mobileNav" class="overlay">
+      <div class="upperOverlay">
+        <a class="navA" href="form.html">Log in</a>
+        <a
+          ><img
+            class="spilleLogoDice"
+            src="../images/spille-logo-dice.png"
+            alt="Spillehjørn Logo"
+        /></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          ><i class="fas fa-times fa-lg"></i
+        ></a>
+      </div>
+
+      <div class="overlay-content">
+        <a href="">More Games</a>
+        <a href="">Help</a>
+        <a href="">About us</a><br /><br />
+
+        <a href="">Play Spillehjørnet</a>
+        <a href="about.html">Winners</a>
+        <a href="teaching.html">About Spillehjørnet</a>
+        <a href="index.html#contact">Regular Campaigns</a>
+        <a class="current" href="form.html"
+          >Sign up <i class="fas fa-chevron-down"></i
+        ></a>
+      </div>
+    </div>
+  </header>
+    <main id='mymain'>
+    <!-- New Form -->
+    <form id="newForm">
+
+
+      <h3>Blue account</h3>
+
+      <div class="row">
+          <div class="input-field inline">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+              <span class="helper-text" data-error="not a valid email" data-success="Correct email, good job! "></span>
+            </div>
+      </div>
+      <div class="row">
+        <div class="input-field inline">
+          <input
+            name="name"
+            id="icon_prefix"
+            type="text"
+            class="validate"
+            required
+          />
+          <label for="icon_prefix">Name*</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field inline">
+          <input
+            id="password"
+            name="password"
+            type="password"
+            class="validate"
+            minlength="5"
+            required
+          />
+          <label for="password">Password*</label>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <label>
+            <input class="checkbox" type="checkbox" required />
+            <span>I am over 18 year old</span><span id="red">  *</span>
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input class="checkbox" type="checkbox" required />
+            <span
+              >I agree to the <span id="color">terms and conditions*</span></span
+            ><span id="red">  *</span>
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input class="checkbox" type="checkbox" />
+            <span
+              >
+                I want to receive Danske Spill special deals and hear about
+                exciting new on my email
+              </span
+            >
+          </label>
+        </li>
+      </ul>
+
+      <input id="submit_btn" type="submit" value="Sign up" />
+      <p>Already have a account? <span style="color: #26A59A">Log in</span></p>
+      <br />
+    </form>
+  </main>
+
+  <!-- footer here -->
+  <footer>
+      <hr />
+      <div class="mainFooter">
+        <div class="mainFooterPart1">
+          <a href=""
+            ><img
+              class="danskeLogo"
+              src="../images/danskespil-logo.png"
+              alt="danskespil logo"
+          /></a>
+          <p>Danske Spil A/S<br />Korsdalsvej 135<br />2605 Brøndby</p>
+        </div>
+        <div class="mainFooterPart2">
+          <ul>
+            <li><a class="navA" href="#">Operational status</a></li>
+            <li><a class="navA" href="#">Terms and conditions</a></li>
+            <li><a class="navA" href="#">Vegas</a></li>
+            <li><a class="navA" href="#">Become a partner</a></li>
+            <li><a class="navA" href="#">Responsibility</a></li>
+            <li><a class="navA" href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="mainFooterPart3">
+          <ul>
+            <li><a class="navA" href="#">YouBet</a></li>
+            <li><a class="navA" href="#">Winning chances</a></li>
+            <li><a class="navA" href="#">Cookies</a></li>
+            <li><a class="navA" href="#">Game rules</a></li>
+            <li><a class="navA" href="#">Kalaalisut</a></li>
+          </ul>
+        </div>
+        <div class="mainFooterPart4">
+          <p>Contact our customer service<br />every day from 9am until 23pm</p>
+          <button class="footerBtn">KONTAKT KUNDESERVICE</button>
+        </div>
+      </div>
+      <div class="subFooter">
+        <img src="../images/footer-logo1.png" alt="partner logo" />
+        <img src="../images/footer-logo2.png" alt="partner logo" />
+        <img src="../images/footer-logo3.png" alt="partner logo" />
+        <img src="../images/footer-logo4.png" alt="partner logo" />
+        <img src="../images/footer-logo5.png" alt="partner logo" />
+        <img src="../images/footer-logo6.png" alt="partner logo" />
+      </div>
+    </footer>
+    <script src="../main/main.js"></script>
+    <script
+      type="text/javascript"
+      src="node_modules/materialize-css/dist/js/materialize.min.js"
+    ></script>
+    <script src="form.js"></script>
+  </body>
+</html>

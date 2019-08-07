@@ -1,0 +1,25 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #26a59a;
+      }
+
+      .cls-3 {
+        fill: #d65252;
+      }
+    </style>
+  </defs>
+  <title>user</title>
+  <circle id="background-circle" class="cls-1" cx="20" cy="20" r="18"/>
+  <g id="iconfinder_user-alt_285645" data-name="iconfinder user-alt 285645">
+    <path id="Path_27" data-name="Path 27" class="cls-2" d="M15.23,20a11.9,11.9,0,0,0-7,9.57,2.55,2.55,0,0,0,2.49,2.62h18.4a2.56,2.56,0,0,0,2.55-2.57v0a11.92,11.92,0,0,0-7-9.57,5.35,5.35,0,0,1-4.71,3A5.35,5.35,0,0,1,15.23,20Z"/>
+    <path id="Path_28" data-name="Path 28" class="cls-2" d="M26.49,12.56A6.56,6.56,0,1,1,19.94,6h0a6.56,6.56,0,0,1,6.55,6.56Z"/>
+    <path id="Path_29" data-name="Path 29" class="cls-2" d="M19.94,17.8A11.79,11.79,0,0,0,8.22,28.29a2.55,2.55,0,0,0,2.48,2.62H29.11a2.56,2.56,0,0,0,2.55-2.56v-.06A11.8,11.8,0,0,0,19.94,17.8Z"/>
+  </g>
+  <circle id="circle" class="cls-3" cx="6" cy="6" r="6"/>
+</svg>

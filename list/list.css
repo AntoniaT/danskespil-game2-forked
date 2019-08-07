@@ -1,0 +1,109 @@
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-top: 20vh;
+  padding: 20px;
+  background-color: #5f7896;
+}
+body {
+  background-color: #7d96b4;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  justify-content: center;
+  display: none;
+}
+
+#form_container {
+  display: flex;
+  justify-content: center;
+}
+
+form > div {
+  margin: 10px;
+}
+#submit_btn {
+  width: 100px;
+  margin: 10px;
+}
+
+p {
+  padding: 10px;
+}
+
+.delete {
+  width: 40px;
+  height: 30px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-radius: 10%;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.delete:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  color: red;
+}
+/* 
+#list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+} */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+#list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#list td,
+#list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#list tr:nth-child(even) {
+  background-color: #5f7896;
+}
+
+#list tr:hover {
+  background-color: rgb(36, 50, 88);
+}
+
+#list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(14, 14, 61);
+  color: white;
+}
+
+td,
+th {
+  font-size: 10px;
+}

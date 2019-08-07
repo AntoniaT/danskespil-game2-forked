@@ -1,0 +1,68 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navImg{
+   height: 50px;
+   width: auto;
+}
+input{
+   background-color:#F6F6F6;
+   border: none;
+   width: 50vw;
+   border-radius: 15px; 
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+    margin-left: 10px;
+}
+#iconBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fas{
+    color: #898989;
+    margin: 10px;
+}
+hr{
+    color:#F6F6F6;
+}
+#mailSection{
+    margin: 4em;
+}
+#mailHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#mailContent{
+    text-align: center;
+    background-color: #cbd4e0;
+    padding: 4em;
+
+}
+button{
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: .875rem;
+    color: #5f6368;
+    font-weight: 500;
+    margin: .5em;
+    margin-top: 2em;
+}
+button:hover{
+    background-color:#F6F6F6;
+}
+.fa-envelope{
+    color: #D9223A;
+}

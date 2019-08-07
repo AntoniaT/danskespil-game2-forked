@@ -1,0 +1,46 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.98 25.98">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #26a59a;
+      }
+
+      .cls-3 {
+        opacity: 0.94;
+      }
+
+      .cls-4 {
+        fill-opacity: 0.4;
+      }
+
+      .cls-5, .cls-6 {
+        isolation: isolate;
+      }
+
+      .cls-6 {
+        font-size: 13.43px;
+        font-family: OpenSans-Regular, Open Sans;
+      }
+    </style>
+  </defs>
+  <title>user_photo</title>
+  <g id="Group_77" data-name="Group 77">
+    <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-1" cx="12.99" cy="12.99" r="12.99"/>
+    <g id="iconfinder_user-alt_285645" data-name="iconfinder user-alt 285645">
+      <path id="Path_27" data-name="Path 27" class="cls-2" d="M9.56,14a8.58,8.58,0,0,0-5.05,6.91A1.84,1.84,0,0,0,6.3,22.83H19.59A1.84,1.84,0,0,0,21.42,21v0A8.59,8.59,0,0,0,16.36,14,3.85,3.85,0,0,1,13,16.21,3.87,3.87,0,0,1,9.56,14Z" transform="translate(-0.02 -1.02)"/>
+      <path id="Path_28" data-name="Path 28" class="cls-2" d="M17.69,8.64A4.73,4.73,0,1,1,13,3.91h0A4.72,4.72,0,0,1,17.69,8.64Z" transform="translate(-0.02 -1.02)"/>
+      <path id="Path_29" data-name="Path 29" class="cls-2" d="M13,12.42A8.51,8.51,0,0,0,4.51,20,1.84,1.84,0,0,0,6.3,21.88H19.59A1.83,1.83,0,0,0,21.42,20V20A8.51,8.51,0,0,0,13,12.42Z" transform="translate(-0.02 -1.02)"/>
+    </g>
+  </g>
+  <g id="Group_82" data-name="Group 82" class="cls-3">
+    <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-4" cx="12.99" cy="12.99" r="12.99"/>
+    <path id="iconfinder_camera_126587" data-name="iconfinder camera 126587" class="cls-1" d="M8.26,14.63a.9.9,0,1,0,.89.9A.9.9,0,0,0,8.26,14.63Zm3.13-1.79H10.27l-.22-.55c-.12-.27-.26-.35-.45-.35H6.91c-.19,0-.33.08-.45.35l-.22.55H5.12a.45.45,0,0,0-.45.45v4.48a.45.45,0,0,0,.45.44h6.27a.45.45,0,0,0,.45-.44V13.29A.45.45,0,0,0,11.39,12.84ZM8.26,17.32a1.8,1.8,0,1,1,1.79-1.79A1.8,1.8,0,0,1,8.26,17.32Z" transform="translate(-0.02 -1.02)"/>
+    <g id="_" data-name=" " class="cls-5">
+      <text class="cls-6" transform="translate(12.91 18.99)">+</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,737 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
+
+.cls-1mm2 {
+  fill: #feb700;
+}
+
+.cls-2mm2,
+.cls-4mm2,
+.cls-9mm2 {
+  fill: none;
+}
+
+.cls-2mm2 {
+  stroke: #fab60f;
+}
+
+.cls-12mm2,
+.cls-2mm2,
+.cls-4mm2,
+.cls-6mm2,
+.cls-7mm2,
+.cls-8mm2 {
+  stroke-miterlimit: 10;
+}
+
+.cls-3mm2 {
+  fill: #fab60f;
+}
+
+.cls-4mm2 {
+  stroke: #feb700;
+}
+
+.cls-5mm2 {
+  opacity: 0.34;
+}
+
+.cls-11mm2,
+.cls-5mm2 {
+  isolation: isolate;
+}
+
+.cls-6mm2 {
+  stroke: #333;
+}
+
+.cls-7mm2 {
+  fill: #fff;
+  stroke: #a67c52;
+}
+
+.cls-12mm2,
+.cls-8mm2 {
+  fill: red;
+}
+
+.cls-8mm2,
+.cls-9mm2 {
+  stroke: #fff;
+}
+
+.cls-9mm2 {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+}
+
+.cls-10mm2 {
+  fill-rule: evenodd;
+}
+
+.cls-12mm2 {
+  stroke: red;
+  stroke-width: 5px;
+}
+.cls-1mf {
+  isolation: isolate;
+}
+
+.cls-2mf {
+  fill: #feb700;
+}
+
+.cls-13mf,
+.cls-15mf,
+.cls-3mf,
+.cls-5mf {
+  fill: none;
+}
+
+.cls-3mf {
+  stroke: #fab60f;
+}
+
+.cls-10mf,
+.cls-11mf,
+.cls-13mf,
+.cls-3mf,
+.cls-5mf,
+.cls-7mf,
+.cls-8mf {
+  stroke-miterlimit: 10;
+}
+
+.cls-4mf {
+  fill: #fab60f;
+}
+
+.cls-5mf {
+  stroke: #feb700;
+}
+
+.cls-6mf {
+  opacity: 0.34;
+  mix-blend-mode: multiply;
+}
+
+.cls-10mf,
+.cls-7mf {
+  stroke: #333;
+}
+
+.cls-7mf,
+.cls-8mf {
+  stroke-width: 0.65px;
+}
+
+.cls-11mf,
+.cls-8mf {
+  fill: #fff;
+  stroke: #a67c52;
+}
+
+.cls-9mf {
+  fill: #009173;
+}
+
+.cls-10mf,
+.cls-11mf {
+  stroke-width: 0.25px;
+}
+
+.cls-12mf {
+  fill-rule: evenodd;
+}
+
+.cls-13mf {
+  stroke: #009173;
+  stroke-width: 2px;
+}
+
+.cls-14mf {
+  fill: #17ab13;
+}
+.cls-1t {
+  isolation: isolate;
+}
+
+.cls-2t {
+  opacity: 0.56;
+  mix-blend-mode: multiply;
+}
+
+.cls-3t {
+  fill: #fff;
+}
+
+.cls-4t {
+  fill: red;
+}
+.cls-1mm1 {
+  isolation: isolate;
+}
+
+.cls-2mm1 {
+  opacity: 0.68;
+  mix-blend-mode: multiply;
+}
+
+.cls-3mm1 {
+  fill: #fff;
+}
+
+.cls-4mm1 {
+  fill: #feb700;
+}
+.cls-1m1 {
+  isolation: isolate;
+}
+
+.cls-2m1 {
+  opacity: 0.34;
+}
+
+.cls-2m1,
+.cls-9m1 {
+  mix-blend-mode: multiply;
+}
+
+.cls-3m1,
+.cls-6m1 {
+  stroke: #333;
+}
+
+.cls-3m1,
+.cls-4m1,
+.cls-6m1,
+.cls-7m1 {
+  stroke-miterlimit: 10;
+}
+
+.cls-3m1,
+.cls-4m1 {
+  stroke-width: 0.65px;
+}
+
+.cls-4m1,
+.cls-7m1 {
+  fill: #fff;
+  stroke: #a67c52;
+}
+
+.cls-5m1 {
+  fill: #009173;
+}
+
+.cls-6m1,
+.cls-7m1 {
+  stroke-width: 0.25px;
+}
+
+.cls-8m1 {
+  fill-rule: evenodd;
+}
+
+.cls-9m1 {
+  opacity: 0.68;
+}
+
+.cls-10m1,
+.cls-13m1 {
+  fill: none;
+}
+
+.cls-10m1 {
+  stroke: #feb700;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cls-11m1 {
+  fill: #feb700;
+}
+
+.cls-12m1 {
+  fill: #17ab13;
+}
+.cls-1a {
+  isolation: isolate;
+}
+
+.cls-2a {
+  opacity: 0.34;
+  mix-blend-mode: multiply;
+}
+
+.cls-3a {
+  stroke: #333;
+}
+
+.cls-3a,
+.cls-4a,
+.cls-5a {
+  stroke-miterlimit: 10;
+}
+
+.cls-4a,
+.cls-6a {
+  fill: #fff;
+}
+
+.cls-4a {
+  stroke: #a67c52;
+}
+
+.cls-5a {
+  fill: red;
+}
+
+.cls-5a,
+.cls-6a {
+  stroke: #fff;
+}
+
+.cls-6a {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+}
+.cls-1 {
+  fill: #d2e2df;
+}
+
+.cls-2 {
+  fill: #7ea7b0;
+}
+
+.cls-3 {
+  fill: #b2cad0;
+}
+
+.cls-4 {
+  fill: #818387;
+}
+
+.cls-5 {
+  fill: #516063;
+}
+
+.cls-6 {
+  fill: #2d3037;
+}
+
+.cls-7 {
+  fill: #3f3f40;
+}
+
+.cls-8 {
+  fill: url(#Unbenannter_Verlauf_17);
+}
+
+.cls-37,
+.cls-9 {
+  fill: #f7efc9;
+}
+
+.cls-10 {
+  fill: #1e1313;
+}
+
+.cls-11 {
+  fill: url(#Unbenannter_Verlauf_17-2);
+}
+
+.cls-12 {
+  fill: url(#Unbenannter_Verlauf_17-3);
+}
+
+.cls-13 {
+  fill: url(#Unbenannter_Verlauf_17-4);
+}
+
+.cls-14 {
+  fill: #16150f;
+}
+
+.cls-15 {
+  fill: #505f62;
+}
+
+.cls-16,
+.cls-24 {
+  fill: none;
+}
+
+.cls-16 {
+  stroke: #505f62;
+}
+
+.cls-16,
+.cls-24,
+.cls-37,
+.cls-38,
+.cls-39 {
+  stroke-miterlimit: 10;
+}
+
+.cls-17 {
+  fill: #85a6ad;
+}
+
+.cls-18 {
+  fill: #262932;
+}
+
+.cls-19 {
+  fill: #140100;
+}
+
+.cls-20 {
+  fill: #57595f;
+}
+
+.cls-21 {
+  fill: #283031;
+}
+
+.cls-22 {
+  fill: #969fa1;
+}
+
+.cls-23 {
+  fill: #170f0f;
+}
+
+.cls-24 {
+  stroke: #c7b299;
+}
+
+.cls-25 {
+  fill: #898487;
+}
+
+.cls-26 {
+  fill: #adaeb0;
+}
+
+.cls-27 {
+  fill: #e6e6e7;
+}
+
+.cls-28 {
+  fill: #dcdfe0;
+}
+
+.cls-29 {
+  fill: #b3b5b7;
+}
+
+.cls-30 {
+  fill: #5b5d62;
+}
+
+.cls-31 {
+  fill: #616265;
+}
+
+.cls-32 {
+  fill: #414244;
+}
+
+.cls-33 {
+  fill: #271112;
+}
+
+.cls-34 {
+  fill: #98b9bf;
+}
+
+.cls-35 {
+  fill: #142c46;
+}
+
+.cls-36 {
+  fill: #274a5c;
+}
+
+.cls-37 {
+  stroke: #f7efc9;
+  opacity: 0.57;
+}
+.cls-1b {
+  isolation: isolate;
+}
+
+.cls-2b {
+  opacity: 0.34;
+  mix-blend-mode: multiply;
+}
+
+.cls-3b {
+  stroke: #333;
+}
+
+.cls-3b,
+.cls-4b {
+  stroke-miterlimit: 10;
+}
+
+.cls-4b {
+  fill: #fff;
+  stroke: #a67c52;
+}
+
+.cls-5b {
+  fill: #009173;
+}
+.cls-41 {
+  font-size: 60px;
+  fill: #999;
+  font-family: OpenSans-SemiBold, Open Sans;
+  font-weight: 600;
+}
+.cloud {
+  animation: moving 10s infinite alternate ease-in-out;
+}
+@keyframes moving {
+  to {
+    transform: translateX(160px);
+  }
+}
+.dragon {
+  animation: dragoning 3s infinite alternate ease-in-out;
+}
+@keyframes dragoning {
+  100% {
+    transform: translateY(30px);
+  }
+}
+#deathCounter {
+  transform: translateX(1535px);
+  cursor: pointer;
+}
+#pointstext {
+  font-size: 300%;
+  text-shadow: black 2px 1px;
+}
+#gameplaceholder {
+  transform: scale(0.8);
+  position: relative;
+  width: 100%;
+}
+#badCup {
+  display: none;
+}
+#endgamemodal {
+  background-image: linear-gradient(#f3f3f3, #ffffff);
+  border: 1px solid #26a59a;
+  border-radius: 8px;
+  position: absolute;
+  width: 50vw;
+  height: 60vh;
+  top: 15vh;
+  left: 25vw;
+  display: none;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10vh;
+}
+#blur {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0vh;
+  left: 0vw;
+  display: none;
+}
+#CupForCounting {
+  transition: all 0.3s;
+  z-index: 8;
+  cursor: pointer;
+}
+
+#backgroundmodal {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.77);
+  width: 100vw;
+  height: 40%;
+  top: 30%;
+  left: 0vw;
+}
+#startone {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0;
+  transform: scale(0.6) translateY(-200px);
+}
+#starttwo {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0;
+  transform: scale(0.6) translateY(-200px);
+}
+#numberone {
+  transform: translate(230px, -60px);
+}
+
+.finger {
+  animation: pointing 1s alternate-reverse infinite ease-in;
+}
+@keyframes pointing {
+  to {
+    transform: translateY(-10px);
+  }
+}
+.bigcup {
+  animation: pulsating 1s alternate-reverse infinite ease-in;
+}
+@keyframes pulsating {
+  to {
+    transform: scale(1.06);
+  }
+}
+.smallcup {
+  animation: pulse 1s alternate-reverse infinite ease-in;
+}
+@keyframes pulse {
+  to {
+    transform: scale(1.01);
+  }
+}
+.plusone {
+  animation: adding 0.5s alternate-reverse infinite ease-in;
+}
+@keyframes adding {
+  to {
+    opacity: 1;
+  }
+}
+#Shape,
+#Shape-2 {
+  animation: adding 1s forwards infinite ease-in-out;
+}
+#xxx {
+  animation: rotatingx 0.5s alternate-reverse infinite ease-in;
+}
+@keyframes rotatingx {
+  to {
+    transform: scale(1.02);
+  }
+}
+#onepoint {
+  opacity: 0;
+  transform: translate(-230px, -23px) scale(1.4);
+}
+#thex {
+  opacity: 0;
+  transform: translate(-374px, -120px);
+}
+.animatingpoints {
+  animation: adding 0.6s infinite ease-in-out;
+}
+#blur2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0vh;
+  left: 0vw;
+}
+.instruction {
+  font-size: 300%;
+  position: absolute;
+  padding-top: 50%;
+  left: 0%;
+  width: 100%;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  color: #009173;
+  text-align: center;
+}
+#congratulations {
+  font-size: 200%;
+  text-shadow: lightgrey 0px 3px 6px;
+}
+#youremail {
+  font-size: 80%;
+}
+#emailgameinput {
+  left: 30%;
+  width: 20em;
+  height: 3em;
+  border: #feb700 0.6em solid;
+}
+#donttouchthecup {
+  color: red;
+  top: 104%;
+  padding-top: 0%;
+}
+.formbutton {
+  width: 11.8em;
+  height: 2.2em;
+  border: none;
+  background-color: #feb700;
+  margin-top: 1vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18pt;
+}
+#nospam {
+  text-align: left;
+  margin-left: 30%;
+  font-size: 80%;
+}
+#replay {
+  text-align: left;
+  margin-left: -6%;
+  font-size: 80%;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+}
+
+#rotateScreen {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+/* CSS for Mobile starts here*/
+@media screen and (max-width: 500px) {
+  /*Rotate mobile*/
+  .hidden {
+    display: none;
+  }
+  #rotateScreen {
+    background-color: #0f3c5d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+    left: 0vw;
+    z-index: 8;
+    display: block;
+  }
+  #rotateScreen p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  #rotateButton {
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  #startone {
+    display: none;
+  }
+}

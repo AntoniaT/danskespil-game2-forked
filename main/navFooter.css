@@ -1,0 +1,294 @@
+.navA{
+    text-decoration: none;
+    color: #fff;
+ /*   margin: 0px 20px 0px 20px; */
+    font-size: 0.9em;
+    margin: 0px 20px 0px 20px;
+
+}
+nav, #formNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #5F7896;
+    height: 3em;
+    align-items: center;
+}
+
+.rightNav{
+    align-items: center;
+    display: flex;
+}
+.subNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #849bb4;
+}
+.subNav{
+    height: 3em;
+    align-items: center;
+}
+
+.spilleLogo{
+   height: 1em;
+   margin-left: 1em;
+}
+.danskeLogo{
+  height: 1.5em;
+}
+.footerBtn{
+    background-color: #fff;
+    color: #0F3C5D;
+    width: 15em;
+    margin-top: 2em;
+    margin-left: -0.3em;
+    min-width: 8em;
+    height: 3em;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 6px;
+}
+.mainFooter{
+    background-color: #849BB4;
+    padding: 3em 5em;
+    color: #fff;
+    font-size: 0.8em;
+}
+.mainFooterPart2 li, .mainFooterPart3 li{
+    list-style-type: none;
+}
+.subFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.5em;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+.subFooter img{
+    height: 4em;
+    margin: 0.8em;
+}
+
+#Layer_1{
+    width: 40px;
+    height: auto;
+}
+#circle{
+    animation: pulse 0.5s ease-in-out alternate-reverse infinite;
+}
+@keyframes pulse {
+  from{
+      transform: scale(1);
+  }
+  to{
+      transform: scale(1.3);
+  }
+}
+.upperMobileNav{
+    height: 0%;
+}
+#mobileNav.overlay{
+    height: 0%;
+}
+@media screen and (max-width: 665px){
+nav, #formNav{
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    background-color: #7397b7;
+}
+#Layer_1{
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
+.upperMobileNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#danskeLogoMobile{
+    height: 4em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+#danskeLogoMobileForm{
+    height: 2.5em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.leftNav, .rightNav, .subNav{
+    display: none;
+}
+    /* DROP DOWN MENU */
+.current{
+    background-color: #FEB700;
+    margin-top: 20px;
+}
+
+.menuBtn {
+    padding: 0.5em;
+    cursor: pointer;
+}
+.spilleLogoDice{
+    width: auto;
+    height: 2em;
+}
+.upperOverlay{
+    height: 3.1em;
+    background-color:#7397b7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upperOverlay a{
+    color: #fff;
+    padding: .5em;
+    font-size: .8em;
+    margin: 10px;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.overlay-content a {
+    padding: .5em;
+    font-size: 0.8em;
+    color: #0F3C5D;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color:#CDDDEF;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 1.3em;
+}
+
+.hidden {
+    display: none;
+}
+
+.mainFooterPart2, .mainFooterPart3{
+        margin-top: 2em;
+        margin-bottom: 1em;
+    
+}
+.mainFooterPart2 li .navA, .mainFooterPart3 li .navA{
+    margin-left: -40px;
+}
+.footerBtn{
+    font-weight: normal;
+}
+.mobileAvatar{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+}
+/* IPAD VERSION */
+@media screen and (min-width: 665px) and (max-width: 823px) {
+.navA{
+    margin: 0px 10px;
+    font-size: 0.7em;
+}
+.menuBtn{
+    display: none;
+}
+#mobileNav{
+    display: none;
+}
+.upperMobileNav{
+display: none;
+
+}
+
+.mainFooter{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4, 2fr); 
+}
+
+.mainFooterPart1{
+        grid-column: 1 / 2;
+    
+}
+.mainFooterPart2{
+        grid-column: 2 / 3;
+}
+.mainFooterPart3{
+        grid-column: 3 / 4;
+    
+}
+.mainFooterPart4{
+        grid-column: 4 / 5;
+}
+.footerBtn{
+    font-weight: normal;
+}
+}
+/* DESKTOP VERSION */
+@media screen and (min-width: 823px) {
+.menuBtn{
+        display: none;
+    }
+#mobileNav{
+        display: none;
+}
+.upperMobileNav{
+    display: none;
+
+}
+
+    .mainFooter{
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: repeat(4, 2fr); 
+    }
+    
+    .mainFooterPart1{
+            grid-column: 1 / 2;
+        
+    }
+    .mainFooterPart2{
+            grid-column: 2 / 3;
+    }
+    .mainFooterPart3{
+            grid-column: 3 / 4;
+        
+    }
+    .mainFooterPart4{
+            grid-column: 4 / 5;
+    }
+}

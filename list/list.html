@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>User List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="list.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="dice.png" alt="dice" />
+      <img src="spilletext.png" id="logo" alt="logo" />
+    </div>
+    <main>
+      <h2>The list of signed up users</h2>
+      <div id="form_container">
+        <form>
+          <div>
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="yourname@email.com"
+            />
+          </div>
+          <div>
+            <label for="name">Username: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Name"
+            />
+          </div>
+          <div>
+            <label for="pass">Password (5 characters minimum):</label>
+            <input
+              type="password"
+              id="pass"
+              name="password"
+              minlength="5"
+              required
+            />
+          </div>
+          <input id="submit_btn" type="submit" value="Sign up" />
+        </form>
+      </div>
+
+      <table id="list">
+        <tr>
+          <th id="number" >number</th>
+          <th id="email" >email</th>
+          <th id="name" >username</th>
+          <th id="password" >password</th>
+          <th id="account_type" >account type</th>
+          <th id="card_holder" >card holder</th>
+          <th id="card_number" >card number</th>
+          <th id="date" >date</th>
+          <th id="cvv" >cvv</th>
+          <th id="nemid" >Nem ID</th>
+          <th id="nempassword" >nem ID password</th>
+          <th>Delete</th>
+        </tr>
+      </table>
+
+      <template id="user_template">
+        <tr class="user">
+          <td class="number"></td>
+          <td class="email"></td>
+          <td class="name"></td>
+          <td class="password"></td>
+          <td class="account_type">blue</td>
+          <td class="card_holder">none</td>
+          <td class="card_number">none</td>
+          <td class="date">none</td>
+          <td class="cvv">none</td>
+          <td class="nemid">none</td>
+          <td class="nempassword">none</td>
+          <td>
+            <label for="delete"
+              ><button class="delete">
+                <i class="fas fa-skull-crossbones"></i></button
+            ></label>
+          </td>
+        </tr>
+      </template>
+    </main>
+    <script src="list.js"></script>
+  </body>
+</html>

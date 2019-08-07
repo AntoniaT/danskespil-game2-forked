@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheet" type="text/css" href="gamestyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="navFooter.css" />
+
+    <title>Spillehjørnet</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="leftNav">
+          <a class="navA" href="main.html"
+            ><img
+              class="danskeLogo"
+              src="../images/danskespil-logo.png"
+              alt="danskespil logo"
+          /></a>
+          <a
+            class="navA"
+            href="https://danskespil.dk/spillehjoernet?intcmp=top_menu_spillehjoernet_brand#"
+            >More games</a
+          >
+          <a class="navA" href="https://kundecenter.danskespil.dk/forside"
+            >Help</a
+          >
+          <a class="navA" href="https://danskespil.dk/om">About us</a>
+        </div>
+        <div class="rightNav">
+          <a class="navA" href="../red_form/form.html">Log in</a>
+          <a class="navA" href="../blue_form/form.html">Sign up</a>
+        </div>
+      </nav>
+      <div class="subNav">
+        <img
+          class="spilleLogo"
+          src="../images/spille-logo-white.png"
+          alt="Spillehjørn Logo"
+        />
+        <a class="navA" href="#"
+          >Play Spillehjørnet <i class="fas fa-chevron-down"></i
+        ></a>
+        <a class="navA" href="#">Winners</a>
+        <a class="navA" href="#">About Spillehjørnet</a>
+        <a class="navA" href="#">Regular Campaigns</a>
+      </div>
+      <!-- BURGER NAVIGATION FOR MOBILE-->
+      <!-- source: "https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp?fbclid=IwAR06HAN5lNBheJ1YniQ2r2rWnHodkamx02YmP8lB9Le0Ctf2sIyOsxnwZyE" we used w3schools to help us create the following burger navigation. -->
+      <div class="upperMobileNav">
+        <i class="menuBtn fas fa-bars fa-2x"></i>
+        <a href="main.html"
+          ><img
+            id="danskeLogoMobile"
+            src="../images/spille-logo-dice.png"
+            alt="danskespil logo"
+        /></a>
+      </div>
+      <div id="mobileNav" class="overlay">
+        <div class="upperOverlay">
+          <a class="navA" href="../red_form/form.html">Log in</a>
+          <a
+            ><img
+              class="spilleLogoDice"
+              src="../images/spille-logo-dice.png"
+              alt="Spillehjørn Logo"
+          /></a>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            ><i class="fas fa-times fa-lg"></i
+          ></a>
+        </div>
+
+        <div class="overlay-content">
+          <a href="">More Games</a>
+          <a href="">Help</a>
+          <a href="">About us</a><br /><br />
+
+          <a href="">Play Spillehjørnet</a>
+          <a href="https://danskespil.dk/spillehjoernet/content/vinderside">Winners</a>
+          <a href="https://danskespil.dk/om">About Spillehjørnet</a>
+          <a href="https://danskespil.dk/spillehjoernet/content/kampagner/mandagsyatzy">Regular Campaigns</a>
+          <a class="current" href="../blue_form/form.html"
+            >Sign up <i class="fas fa-chevron-down"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <section class="game">
+      <!--the game should be placed here-->
+      <div class="placeholderGame">
+        <div id="gameplaceholder">
+          <div id="blur2"></div>
+          <div id="backgroundmodal"></div>
+          <div id="rotateScreen">
+            <p>Rotate screen to play game</p>
+            <button id="rotateButton" class="formbutton">
+              <i id="rotateIcon" class="fas fa-undo"></i>
+            </button>
+          </div>
+          <div id="startone">
+            <p class="instruction" id="collectthecup">
+              Collect the green cup before it moves
+            </p>
+          </div>
+          <div id="starttwo">
+            <p class="instruction" id="donttouchthecup">
+              Don't touch the red cup
+            </p>
+          </div>
+          <div id="blur"></div>
+          <div id="endgamemodal">
+            <p id="congratulations">
+              Congratulations! That was a good game!
+            </p>
+
+            <p id="youremail">Enter e-mail address to get your <b>money</b></p>
+            <input id="emailgameinput" type="text" /><br />
+
+            <a id="linkToEmail" href="../email/email.html">
+              <button id="formbutton" class="formbutton"></button>
+            </a>
+            <p id="nospam">No spam, promise</p>
+            <a id="replay">
+              No, thanks, I don't want to get real money
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="intro">
+      <img class="introDice" src="../images/dice.png" alt="icon dice" />
+      <h1>Spillejhørnet</h1>
+      <h2>Gaming & Gambling platform</h2>
+      <p class="introP">Built for gaming, gambling and winning real money!</p>
+      <button class="introBtn">Sign up for free</button>
+    </section>
+
+    <section class="benefits">
+      <h2>Why should you visit Spillehjørnet?</h2>
+      <div class="uspBenefits">
+        <div class="benefitCard">
+          <img class="iconsMain" src="../images/money_icon.png" alt="money icon" />
+          <h3>Win up to <strong>400.000 dkk</strong> everyday!</h3>
+          <br />
+          <p>
+            Making money while having fun? Don’t wait and make it possible today
+            at Spillehjørnet!
+          </p>
+        </div>
+        <div class="benefitCard">
+          <img class="iconsMain" src="../images/dice_icon.png" alt="money icon" />
+          <h3>Discover over 900 games!</h3>
+          <br />
+          <p>
+            Choose the blå konto to play for free with no risk at all! Practice
+            your skills
+          </p>
+        </div>
+        <div class="benefitCard">
+          <img
+            class="iconsMain"
+            src="../images/trophy_icon.png"
+            alt="money icon"
+          />
+          <h3>Compete with 10.000 active users!</h3>
+          <br />
+          <p>
+            Forget about playing alone and play against real people! Challange
+            yourself, collect badges and put your name on the top scores list!
+          </p>
+        </div>
+      </div>
+      <button class="otherGamesBtn">Check out other games</button>
+    </section>
+
+    <footer>
+      <hr />
+      <div class="mainFooter">
+        <div class="mainFooterPart1">
+          <a href=""
+            ><img
+              class="danskeLogo"
+              src="../images/danskespil-logo.png"
+              alt="danskespil logo"
+          /></a>
+          <p>Danske Spil A/S<br />Korsdalsvej 135<br />2605 Brøndby</p>
+        </div>
+        <div class="mainFooterPart2">
+          <ul>
+            <li><a class="navA" href="#">Operational status</a></li>
+            <li><a class="navA" href="#">Terms and conditions</a></li>
+            <li><a class="navA" href="#">Vegas</a></li>
+            <li><a class="navA" href="#">Become a partner</a></li>
+            <li><a class="navA" href="#">Responsibility</a></li>
+            <li><a class="navA" href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="mainFooterPart3">
+          <ul>
+            <li><a class="navA" href="#">YouBet</a></li>
+            <li><a class="navA" href="#">Winning chances</a></li>
+            <li><a class="navA" href="#">Cookies</a></li>
+            <li><a class="navA" href="#">Game rules</a></li>
+            <li><a class="navA" href="#">Kalaalisut</a></li>
+          </ul>
+        </div>
+        <div class="mainFooterPart4">
+          <p>Contact our customer service<br />every day from 9am until 23pm</p>
+          <button class="footerBtn">KONTAKT KUNDESERVICE</button>
+        </div>
+      </div>
+      <div class="subFooter">
+        <img src="../images/footer-logo1.png" alt="partner logo" />
+        <img src="../images/footer-logo2.png" alt="partner logo" />
+        <img src="../images/footer-logo3.png" alt="partner logo" />
+        <img src="../images/footer-logo4.png" alt="partner logo" />
+        <img src="../images/footer-logo5.png" alt="partner logo" />
+        <img src="../images/footer-logo6.png" alt="partner logo" />
+      </div>
+    </footer>
+    <audio id="nope">
+      <source src="nope.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="music">
+      <source src="gotmusic.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="good">
+      <source src="good.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="bad">
+      <source src="bad.mp3" type="audio/mp3" />
+    </audio>
+    <script src="gamescript.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
