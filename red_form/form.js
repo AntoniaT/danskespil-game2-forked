@@ -82,7 +82,7 @@ cardSubmit.addEventListener('click', (event) => {
         nempassword : form.elements.nempassword.value,
         card_holder : form.elements.card_holder.value,
         card_number : form.elements.card_number_part1.value + form.elements.card_number_part2.value + form.elements.card_number_part3.value + form.elements.card_number_part4.value,
-        date: form.elements.date1.value + form.elements.date2.value,
+        date: form.elements.date1.value + "/" + form.elements.date2.value,
         cvv: form.elements.cvc.value
     };
     console.log(redInputData);
@@ -106,10 +106,10 @@ function get(redInputData){
 }
 
 // Media queries 
-window.addEventListener("resize", mediaQueires)
+window.addEventListener("resize", mediaQueries)
 let x = window.matchMedia("(max-width: 500px)")
-mediaQueires()
-function mediaQueires() {
+mediaQueries()
+function mediaQueries() {
   if (x.matches) { // If media query matches
     console.log('width matches')
     document.querySelector('#account_set').classList.remove('current');

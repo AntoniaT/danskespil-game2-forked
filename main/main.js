@@ -3,13 +3,12 @@ window.addEventListener("DOMContentLoaded", init);
 // make buttons on the landing page to links
 function init(){
     document.querySelector('.introBtn').addEventListener('click', () => {
-        location.href = "blue_form/form.html";
+        location.href = "../blue_form/form.html";
 
     })
     document.querySelector('.otherGamesBtn').addEventListener('click', () =>{
         location.href = '../main/spillejhornet.html';
     })
-
 }
 
 // create the burger menu for the mobile version
@@ -30,3 +29,5 @@ function closeNav() {
   document.querySelector(".menuBtn").style.display = "block";
 
 }
+
+
