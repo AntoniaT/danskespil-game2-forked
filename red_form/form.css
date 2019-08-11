@@ -362,7 +362,11 @@ body{
   grid-template-columns: 1fr 5fr;
   
 }
-
+#see_list {
+  color: #0F3C5D;
+  cursor: pointer;
+  text-decoration: underline;
+}
 /* progress bar https://codepen.io/peruvianidol/pen/NLMvqO?page=2&fbclid=IwAR2m6DiD2ZYSh5VUVp6tmH97fjIToKZBEpQEdwr0_wTsPdRpxmU6Jx0tDcI */
 section{
   display: flex;

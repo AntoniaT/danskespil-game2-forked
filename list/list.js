@@ -12,11 +12,11 @@ form.addEventListener("submit", event => {
 
 function post(submittedData) {
   const postData = JSON.stringify(submittedData);
-  fetch("https://examproject-f5d5.restdb.io/rest/signups", {
+  fetch("https://allpets-7f82.restdb.io/rest/danskespil", {
     method: "post",
     headers: {
       "Content-Type": "application/json; charset=utf-8",
-      "x-apikey": "5ce3e85d780a473c8df5ca43",
+      "x-apikey": "5c7cef07cac6621685acbaec",
       "cache-control": "no-cache"
     },
     body: postData
@@ -30,11 +30,11 @@ function post(submittedData) {
 
 
    function get(){
-    fetch('https://examproject-f5d5.restdb.io/rest/signups',{
+    fetch('https://allpets-7f82.restdb.io/rest/danskespil',{
     method: 'get',
     headers: {
       "Content-Type": "application/json; charset=utf-8",
-      "x-apikey": "5ce3e85d780a473c8df5ca43",
+      "x-apikey": "5c7cef07cac6621685acbaec",
       "cache-control": "no-cache"
     }
   })
@@ -83,11 +83,11 @@ function makeList(newData){
 }
 
 function deleteObj(id) {
-  fetch("https://examproject-f5d5.restdb.io/rest/signups/" + id, {
+  fetch("https://allpets-7f82.restdb.io/rest/danskespil/" + id, {
     method: "delete",
     headers: {
       "Content-Type": "application/json; charset=utf-8",
-      "x-apikey": "5ce3e85d780a473c8df5ca43",
+      "x-apikey": "5c7cef07cac6621685acbaec",
       "cache-control": "no-cache"
     }
   })
