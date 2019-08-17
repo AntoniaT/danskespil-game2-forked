@@ -74,6 +74,7 @@ function catching() {
     document.querySelector("#formbutton").innerHTML = `Get your ${counter *
       10} dkk now!`;
     speed = speed - 80;
+
     //to speed up we have to clear the existing interval and turn it on again with the new speed
     clearInterval(intv);
     //turning the game with some timeout
@@ -120,6 +121,8 @@ function catching() {
   }, 40000);
   int = setInterval(moveCup, speed, GoodCup);
   //now introducing the bad cup
+
+
 }
 
 function moveCup(GoodCup) {
@@ -157,6 +160,7 @@ function badCupFunctionality(killedCups, clone, counter) {
     //end the game when it's 3 clicked
     if (killedCups.length === 3) {
       endGame(counter);
+
     }
   });
 }
@@ -171,7 +175,24 @@ function endGame(counter) {
     location.reload();
   });
 }
+// put counter points into local storage and post it later to database restdb
 
+// here we have to take the counter and save it into local storage
+/*     emailSubmit = document.querySelector("#formbutton");
+    emailSubmit.addEventListener(click, saveCounterEmail(counter));
+function saveCounterEmail(counter) {
+  console.log(counter);
+
+  const emailInput = document.getElementById("emailgameinput").value;
+  console.log(emailInput);
+
+    let counterData = {
+      points: counter,
+      firstEmail: emailInput
+    }
+    localStorage.setItem("sp.user", JSON.stringify(counterData));
+  };  
+ */
 //ROTATE MOBILE SECTION
 
 //Showing the rotateScreen div only on mobile devices
@@ -210,3 +231,4 @@ async function start() {
   await screen.orientation.lock("landscape");
   ready();
 }
+

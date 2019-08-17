@@ -101,6 +101,32 @@ button {
 }
 
 /*CSS for Spillejhornet mockup site*/
+#welcomeSection{
+  background-color: #0f3c5d;
+}
+#welcomeMsg{
+  color: #FEB700;
+  text-shadow: 0 0 5px #000;
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 1em;
+}
+#welcomeImg{
+  margin: auto;
+  display: block;
+}
+#welcomeChoice{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.welcomeP{
+  padding: 0em 3em 3em 3em;
+  font-size: 1.5em;
+  color: white;
+}
 main {
   background-color: #5f7896;
 }
@@ -166,6 +192,7 @@ main {
   height: auto;
   display: block;
   margin: auto;
+  padding-top: 3em;
 }
 
 #linkToEmail {

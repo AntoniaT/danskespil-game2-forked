@@ -1,4 +1,11 @@
+/* // here I want to try to put the email aready given into the form input
+window.addEventListener("DOMContentLoaded", init);
+
+const init = () => {
+  
+}*/
 const form = document.querySelector("#newForm");
+
 
 form.addEventListener("submit", event => {
   event.preventDefault();
@@ -23,7 +30,7 @@ function post(submittedData) {
 
   }).then(e => e.json())
   .then(blueData => {
-    makeAlert(blueData);
+   // makeAlert(blueData);
     console.log(blueData);
     localStorage.setItem("sp.user", JSON.stringify(blueData));
     window.location = "../main/spillejhornet.html";
@@ -31,7 +38,7 @@ function post(submittedData) {
 
 }
 
-function makeAlert(data){
+/* function makeAlert(data){
   console.log('hi')
   console.log(data);
 /*   if (data.list[0].message[0] === 'Already exists'){
@@ -41,6 +48,6 @@ function makeAlert(data){
        }
        else {
            alert(data.list[0].message[0])
-       } */
-}
+       } 
+} */
 

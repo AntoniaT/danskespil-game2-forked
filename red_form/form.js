@@ -133,6 +133,7 @@ function mediaQueries() {
 
 // Then I post the new redInputData to the database using the userId
 function post(currUserData, redInputData) {
+    //object.assign just mixes both obj data to one obj
     Object.assign(currUserData, redInputData);
     const postRedData = JSON.stringify(currUserData);
     fetch('https://allpets-7f82.restdb.io/rest/danskespil/' + currUserData._id, {
