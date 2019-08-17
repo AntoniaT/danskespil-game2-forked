@@ -43,7 +43,6 @@ function gameStart() {
   document.querySelector("#starttwo").style.display = "none";
   document.querySelector("#blur2").style.display = "none";
   document.querySelector("#backgroundmodal").style.display = "none";
-  console.log("greencup");
   //hiding the modal
   catching();
 }
@@ -74,6 +73,9 @@ function catching() {
     document.querySelector("#formbutton").innerHTML = `Get your ${counter *
       10} dkk now!`;
     speed = speed - 80;
+
+    //here I save the counter points to local storage to display them later on
+    localStorage.setItem("sp.counter", JSON.stringify(counter));
 
     //to speed up we have to clear the existing interval and turn it on again with the new speed
     clearInterval(intv);
@@ -166,6 +168,7 @@ function badCupFunctionality(killedCups, clone, counter) {
 }
 
 function endGame(counter) {
+
   //also enough of the got music
   document.querySelector("#music").pause();
   document.querySelector("#blur").style.display = "block";
@@ -175,24 +178,7 @@ function endGame(counter) {
     location.reload();
   });
 }
-// put counter points into local storage and post it later to database restdb
 
-// here we have to take the counter and save it into local storage
-/*     emailSubmit = document.querySelector("#formbutton");
-    emailSubmit.addEventListener(click, saveCounterEmail(counter));
-function saveCounterEmail(counter) {
-  console.log(counter);
-
-  const emailInput = document.getElementById("emailgameinput").value;
-  console.log(emailInput);
-
-    let counterData = {
-      points: counter,
-      firstEmail: emailInput
-    }
-    localStorage.setItem("sp.user", JSON.stringify(counterData));
-  };  
- */
 //ROTATE MOBILE SECTION
 
 //Showing the rotateScreen div only on mobile devices

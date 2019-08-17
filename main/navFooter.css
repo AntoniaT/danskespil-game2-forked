@@ -1,10 +1,11 @@
 .navA{
     text-decoration: none;
     color: #fff;
- /*   margin: 0px 20px 0px 20px; */
     font-size: 0.9em;
     margin: 0px 20px 0px 20px;
-
+}
+#userName{
+    font-size: 1.2em;
 }
 nav, #formNav{
     display: flex;

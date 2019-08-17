@@ -102,12 +102,15 @@ button {
 
 /*CSS for Spillejhornet mockup site*/
 #welcomeSection{
-  background-color: #0f3c5d;
+  /*background-color: #0f3c5d;*/
+  width: 100vw;
+  display: block;
+  margin: auto;
 }
 #welcomeMsg{
   color: #FEB700;
+  font-size: 2.3em;
   text-shadow: 0 0 5px #000;
-  width: 800px;
   text-align: center;
   margin: auto;
   display: block;
@@ -121,9 +124,11 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #376c8f;
+  width: 100%;
 }
 .welcomeP{
-  padding: 0em 3em 3em 3em;
+  padding: 1.5em 3em 1.5em 3em;
   font-size: 1.5em;
   color: white;
 }
@@ -198,6 +203,93 @@ main {
 #linkToEmail {
   text-decoration: none;
 }
+/* CSS rules for the svg medal winner element*/
+#welcomeArrowDown{
+  padding-left: 5px;
+  animation: down 1.2s ease-in-out infinite;
+}
+@keyframes down{
+  from{
+    transform: translate(0px, 0px);
+  }
+  to{
+    transform: translate(0px, 8px);
+  }
+}
+#welcomeArrowUp{
+  padding-right: 5px;
+  animation: up 1.2s ease-in-out infinite;
+}
+@keyframes up{
+  from{
+    transform: translate(0px, 0px);
+  }
+  to{
+    transform: translate(0px, -8px);
+  }
+}
+#elements{
+  width: 40vw;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+#medal, #band{
+  animation: slide 1s ease-out infinite;
+}
+/* @keyframes spin {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+
+} */
+
+@keyframes slide {
+  from{transform: rotate(5deg)}
+  to{ transform:rotate(0deg) }
+  to{ transform:rotate(-5deg)};
+  to{ transform:rotate(0deg)};
+
+}
+#blink1, #rectangle1{
+  animation: appear .5s infinite;
+}
+#rectangle2{
+  animation: blink 1s infinite;
+}
+@keyframes appear{
+  from {opacity: 0;}
+  to{opacity: 1}
+}
+@keyframes blink{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transform: scale(1.1)}
+}
+#blink2, #rectangle3{
+  animation: appear .7s infinite;
+}
+#blink3, #rectangle4{
+  animation: appear .7s infinite;
+  animation-delay: .5s;
+}
+#blink4{
+  animation: appear .5s infinite;
+  animation-delay: 1s;
+}
+.cls-15{
+  animation: appear 1s infinite;
+  animation-delay: .4s;
+}
+.cls-16{
+  animation: appear .8s infinite;
+}
+.cls-17{
+  animation: blink .6s infinite;
+}
 /* CSS for Mobile starts here*/
 @media screen and (max-width: 500px) {
   .intro {
@@ -235,6 +327,19 @@ main {
     margin: auto;
     display: block;
     margin-top: 1em;
+  }
+  #elements{
+    width: 80vw;
+  }
+  #welcomeMsg{
+    font-size: 1em;
+    text-align: center;
+    padding: .5em;
+    width: 500px;
+  }
+  .welcomeP{
+    padding: 1em;
+    font-size: 1em;
   }
 }
 /* CSS for Desktop starts here*/

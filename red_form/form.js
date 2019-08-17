@@ -3,6 +3,16 @@ window.addEventListener("DOMContentLoaded", init);
 function init() {
   let status = 1;
   console.log(status)
+  // removing the pulsing circle from the avatar
+   document.querySelector("#circle").style.display = "none";
+  // update the username from local storage
+  function updateUserName(){
+    const username = JSON.parse(localStorage.getItem("sp.user"));
+    console.log(username.name);
+    document.querySelector("#userName").textContent = username.name;
+    document.querySelector("#userName_set").textContent = username.name;
+  }
+    updateUserName();
   document.querySelector("#choose").addEventListener("click", () => {
     document.querySelector("#frame1").style.display = "none";
     document.querySelector("#step2").classList.add("is-active");

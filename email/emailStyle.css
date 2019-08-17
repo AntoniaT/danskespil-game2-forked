@@ -49,6 +49,16 @@ hr{
     padding: 4em;
 
 }
+a{
+    text-decoration: none;
+}
+#emailBtn a{
+    text-decoration: none;
+    color:#0f3c5d;
+}
+#emailBtn{
+    background-color: #feb700;
+}
 button{
     height: 36px;
     padding: 0 16px;
