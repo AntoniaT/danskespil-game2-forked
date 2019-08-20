@@ -282,14 +282,14 @@ main {
   animation: appear .5s infinite;
   animation-delay: 1s;
 }
-.cls-15{
+.appear1{
   animation: appear 1s infinite;
   animation-delay: .4s;
 }
-.cls-16{
+.appear2{
   animation: appear .8s infinite;
 }
-.cls-17{
+.appear3{
   animation: blink .6s infinite;
 }
 /* CSS for Mobile starts here*/

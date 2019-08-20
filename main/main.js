@@ -29,7 +29,7 @@ function updateUserName(){
 function loadWelcomeSvg(svgData){
     console.log("load the SVG");
     updatePoints();
-    fetch("../images/winner-icon.svg")
+    fetch("../images/Winner-icon.svg")
     .then( response => response.text() )
     .then( svgData => {
         console.log("SVG loaded");
