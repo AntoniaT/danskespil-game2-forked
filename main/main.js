@@ -15,9 +15,13 @@ function init(){
 }
 // update the points and username from local storage on the welcome section
 function updatePoints(){
+    try{
     const points = localStorage.getItem("sp.counter");
     document.querySelector("[data-set=pointsDisplay]").textContent = points + " points";
-
+    }
+    catch(err) {
+        throw "all good, I need this function for later";
+      }
 }
 function updateUserName(){
     const username = JSON.parse(localStorage.getItem("sp.user"));

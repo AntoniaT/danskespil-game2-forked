@@ -70,8 +70,7 @@ function catching() {
       "#congratulations"
     ).innerHTML = `You earned ${counter} points!<br\> Exchange them to ${counter *
       10}dkk now!`;
-    document.querySelector("#formbutton").innerHTML = `Get your ${counter *
-      10} dkk now!`;
+    document.querySelector("#formbutton").innerHTML = `Get your ${counter} points now!`;
     speed = speed - 80;
 
     //here I save the counter points to local storage to display them later on
